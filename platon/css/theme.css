@@ -1,0 +1,895 @@
+#homebox-block-forum_active,
+#homebox-block-views_calendar-block_1,
+#edit-body-und-0-format,
+#edit-certificate,
+.field-name-course-required-course-ref,
+#og-group-ref-add-more-wrapper--2 {
+    display: none;
+}
+.media-element-container .audiojs audio{
+    display: none;
+}
+
+.media-element-container{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#logo {
+    pointer-events: none;
+}
+
+.media-element-container video,
+video.media-element {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.cke-wrapper {
+    display: flex;
+}
+
+.cke-wrap-block {
+    margin: 0 50px
+}
+
+.narrative {
+    padding: 20px 5%;
+    background: #b19cd9;
+    color: #fff;
+}
+.take-button-cell a:not(.green-link){
+    background-color: #b19cd9 !important;
+}
+
+#edit-additional-questions .add-questions {
+    display: none;
+}
+#edit-correct-answer-evaluation .form-item:nth-child(3),
+#edit-correct-answer-evaluation .form-item:nth-child(4){
+    display: none;
+} 
+
+.form-item-correct-answer-evaluation + #edit-regex-box{
+    display: none;
+}
+
+.template-dialog {
+    display: block;
+}
+
+.template-dialog tr:first-child td, tr:first-child th {
+    font-weight: normal;
+    text-transform: none;
+}
+
+.template-dialog td, .template-dialog th {
+    background: inherit !important;
+    border: none;
+    vertical-align: top;
+}
+.template-dialog tr:nth-child(odd){
+    background: #5700fd0a;
+}
+
+.template-dialog-inline tr td:first-child{
+    font-weight: bold;
+}
+
+.cke_panel_listItem{
+    background: #fff;
+}
+#second-sidebar #opigno-group-progress{
+    display: none;
+}
+
+.trigger{
+    border: none !important;
+}
+#second-sidebar .trigger{
+    margin-top: 25px;
+}
+#second-sidebar .trigger span, #second-sidebar .trigger span::after, #second-sidebar .trigger span::before{
+    background: #000
+}
+.page-my-trainings .action-links li a.add-course,
+.page-training-catalogue .action-links li a.add-course{
+    color: #fff !important;
+    background-color: #5aa449 !important;
+    background-image: url(../img/add-element-icon2-active.png) !important;
+    border-color: #5aa449 !important;
+}
+.page-node-add .form-actions input#edit-submit[value='Save'],
+.page-node-edit .form-actions input#edit-submit[value='Save'],
+#edit-submit[value='Save']{
+    color: #fff !important;
+    background: #5aa449 !important;
+}
+
+.node-form #edit-opigno-course-tools {
+    display: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .view-my-trainings .opigno-group .views-row .views-field.views-field-opigno-class-image,
+    .view-my-trainings .opigno-group .views-row .views-field.views-field-opigno-course-image,
+    .view-opigno-course-catalgue .opigno-group .views-row .views-field.views-field-opigno-class-image,
+    .view-opigno-course-catalgue .opigno-group .views-row .views-field.views-field-opigno-course-image{
+        width: 200px;
+    }
+    .view-my-trainings .opigno-group .views-row .views-field.views-field-title-1,
+    .view-opigno-course-catalgue .opigno-group .views-row .views-field.views-field-title{
+        min-height: auto;
+    }
+    .view-my-trainings .opigno-group .views-row .views-field.views-field-title-1 .field-content .content-top,
+    .view-opigno-course-catalgue .opigno-group .views-row .views-field.views-field-title .field-content .content-top {
+        left: 200px;
+        bottom: 77px;
+    }
+    #homebox [id^="homebox-block-views_active_trainings"] .opigno-group .views-row .views-field.views-field-title .field-content .content-top .title,
+    .view-my-trainings .opigno-group .views-row .views-field.views-field-title-1 .field-content .content-top .title,
+    .view-opigno-course-catalgue .opigno-group .views-row .views-field.views-field-title .field-content .content-top .title {
+        font-size: 13px;
+    }
+    
+    #homebox [id^="homebox-block-views_active_trainings"] .opigno-group .views-row .views-field-opigno-class-image, #homebox [id^="homebox-block-views_active_trainings"] .opigno-group .views-row .views-field.views-field-opigno-course-image {
+        font-size: 0;
+        width: 180px;
+    }
+    #homebox [id^="homebox-block-views_active_trainings"] .opigno-group .views-row .views-field.views-field-title .field-content .content-top {
+        bottom: 92px;
+        left: 180px;
+    }
+}
+
+#homebox-buttons,
+.portlet-header .portlet-close{
+    display: none !important;
+}
+.page-node-add  .field-name-field-image-insert table .image-preview,
+.page-node-add  .field-name-field-image-insert table .tabledrag-handle,
+.page-node-edit  .field-name-field-image-insert table .image-preview,
+.page-node-edit  .field-name-field-image-insert table .tabledrag-handle{
+    display: flex;
+    float: left;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.field-name-field-image-insert tbody tr{
+    display: none;
+}
+.field-name-field-image-insert tbody tr:last-child{
+    display: table-row;
+}
+.field-name-field-image-insert tbody tr:last-child td{
+    background-color: #ececeb !important;
+}
+
+.field-name-field-image-insert table .image-preview img,
+.field-name-field-image-insert table .handle{
+    margin: auto;
+}
+
+.field-name-field-image-insert table .image-widget-data{
+    display: flex;
+    float: left !important;
+    height: 100px;
+}
+
+.field-name-field-image-insert table .image-widget-data .file{
+    margin: auto;
+    margin-left: 20px;
+}
+.field-name-field-image-insert table .image-widget-data .file-size{
+    margin: auto;
+    margin-right: 20px;
+}
+.field-name-field-image-insert table .image-widget-data .insert{
+    margin: auto;
+}
+.field-name-field-image-insert label{
+    display: none;
+}
+.field-name-opigno-course-image input[type="submit"].form-submit,
+.field-name-field-image-insert input[type="submit"].form-submit{
+    background: #5aa449;
+    color: #fff !important;
+}
+.field-name-field-image-insert .insert-button,
+.field-name-field-image-insert input[value='Remove']{
+    padding: 5px 10px !important;
+}
+
+body.page-media {
+    background-color: #fff;
+}
+
+.page-media #edit-upload-upload .form-submit{
+    background: #5aa449;
+}
+
+body.page-media #media-browser-tabset #branding {
+    border-bottom: 1px solid black;
+}
+body.page-media #media-browser-tabset #branding ul.tabs li a{
+    background: #fff;
+}
+body.page-media #media-browser-tabset #branding ul.tabs li.ui-state-active a{
+    color: #fff;
+    background: #58585a;
+}
+
+body.page-media #media-browser-tabset #branding ul.tabs li:nth-child(2){
+    display: none;
+}
+
+body.page-media .views-exposed-widgets .views-widget-filter-type,
+body.page-media .views-exposed-widgets .views-widget-sort-by,
+body.page-media .views-exposed-widgets .views-widget-sort-order{
+    display: none
+}
+
+body.page-media .views-exposed-widgets {
+    position: relative;
+}
+body.page-media .views-exposed-widgets #edit-filename{
+    background: #ccc;
+}
+body.page-media .views-exposed-widgets .views-submit-button{
+    position: absolute;
+    bottom: 0;
+    left: 296px;
+}
+body.page-media .views-exposed-widgets .views-submit-button .form-submit{
+    height: 40px;
+    width: 50px;
+    font-size: 0;
+    background: url(../img/search-submit.png) center center no-repeat;
+}
+
+body.page-media #media-tab-media_default--media_browser_my_files{
+    position: relative
+}
+
+body.page-media #media-tab-media_default--media_browser_my_files .form-actions.form-wrapper{
+    position: absolute;
+    left: 400px;
+    top: 48px;
+    padding: 0 20px;
+    line-height: 33px;
+    background: #5aa449;
+}
+body.page-media #media-tab-media_default--media_browser_my_files .form-actions.form-wrapper a{
+    color: #fff;
+    text-decoration: none;
+}
+body.page-media .views-exposed-widgets .views-widget{
+    float: left;
+}
+body.page-media img,
+body.page-media video{
+    max-width: 400px;
+}
+
+body.page-media .button.fake-ok{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 48px;
+    background: #5aa449;
+    color: #fff;
+    text-decoration: none;
+}
+body.page-media .media-preview-group .edit-file-link,
+body.page-media .form-item-format,
+body.page-media .form-item-format + .description{
+    display: none;
+}
+
+body.page-media #file-entity-add-upload .description{
+    display: none;
+}
+
+.field-name-body .cke_contents.cke_reset{
+    min-height: 500px;
+}
+
+
+.page-admin-opigno-content-course-administration .views-exposed-form .form-item-title{
+    padding-bottom: 40px;
+}
+.page-admin-opigno-content-course-administration .views-exposed-form .form-item-title input{
+    font-size: 17px;
+}
+
+#og-context-navigation .platon-og-context-view-tab[title='Tools']{
+    display: none;
+}
+
+body:not(.user-role-administrator).page-node-group #tabs.has-group-progress,
+body:not(.user-role-administrator).page-node-group .views-field-edit-membership,
+body:not(.user-role-administrator).page-node-group .views-field-edit-membership,
+body:not(.user-role-administrator).page-node-group #edit-operation option:not([value="action::og_membership_delete_action"]){
+    display: none;
+}
+
+/*.page-node-group .username{*/
+/*    color: inherit;*/
+/*    text-decoration: none;*/
+/*    pointer-events: none;*/
+/*}*/
+
+.page-node-group .views-field-og-membership-request{
+    display: none
+}
+.page-node-group .views-exposed-form .views-widget-filter-uid input{
+    line-height: 37px;
+}
+
+.page-node-questions #edit-additional-questions legend{
+    display: none;
+}
+.page-node-questions #edit-additional-questions .fieldset-wrapper{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.node-matching-form #edit-match .filter-wrapper,
+.node-matching-form #edit-settings,
+.node-matching-form table tr th:last-child,
+.node-matching-form table tr td:last-child{
+    display: none;
+}
+.node-matching-form #edit-match td:first-child{
+    width: 50%;
+}
+
+#edit-og-group-ref{
+    display: none;
+}
+
+.text-format-wrapper .filter-wrapper{ 
+    display: none;
+}
+.node-multichoice-form #edit-alternatives-settings,
+.node-multichoice-form #edit-alternatives table label{
+    display: none;
+}
+
+
+#edit-alternatives-multichoice-add-alternative{
+    background: #5aa449 !important;
+    color: #fff !important;
+}
+
+#quiz-start-quiz-button-form input[type="submit"]{
+    background: #b19cd9;
+}
+
+.cke_reset_all .cke_dialog .cke_dialog_body #cke_dialog_contents_258 #cke_dialog_ui_vbox,
+.cke_reset_all .cke_dialog .cke_dialog_body #cke_dialog_contents_258 #cke_dialog_ui_text,
+.cke_reset_all .cke_dialog .cke_dialog_body #cke_dialog_tabs_258{
+    display: none;
+}
+
+.page-admin-structure-taxonomy-course-categories #tabs{
+    display: none;
+}
+
+.page-admin-people #tabs,
+.page-admin-people #user-filter-form,
+.page-admin-people #edit-operation optgroup{
+    display: none;
+}
+
+body:not(.user-role-administrator).page-user #tabs li,
+body:not(.user-role-administrator).page-user-edit .form-item-roles,
+body:not(.user-role-administrator).page-user-edit #edit-privatemsg,
+body:not(.user-role-administrator).page-user-edit #edit-picture,
+body:not(.user-role-administrator).page-user-edit #edit-timezone,
+body:not(.user-role-administrator).page-user-edit #edit-og-user-node,
+body:not(.user-role-administrator).page-admin-people-create .form-item-roles,
+body:not(.user-role-administrator).page-user #opigno-statistics-app-user-widget-badges-earned,
+body:not(.user-role-administrator).page-user #opigno-statistics-app-user-widget-courses-results,
+body:not(.user-role-administrator).page-user #opigno-statistics-app-user .separator,
+body:not(.user-role-administrator).page-user .profile a.privatemsg-send-link.privatemsg-send-link-profile{
+    display: none ;
+}
+.page-user #tabs li:first-child,
+.page-user #tabs li:nth-child(2){
+    display: block;
+}
+
+.field-name-course-required-quiz-ref,
+.page-taxonomy-term .form-item-description-value,
+.page-taxonomy-term #edit-relations,
+.page-admin-structure-taxonomy-course-categories .form-item-description-value,
+.page-admin-structure-taxonomy-course-categories #edit-relations{
+    display: none;
+}
+
+.page-node-add-matching .field-name-body textarea,
+.node-type-matching .field-name-body textarea{
+    height: 100px;
+}
+
+.form-item-remember-settings,
+.field-name-quiz-weight,
+.field-name-quiz-type option[value="mix"],
+.page-node-add-quiz .vertical-tabs,
+.node-type-quiz .vertical-tabs{
+    display: none;
+}
+
+.page-node-add .form-item-title input,
+.page-node-edit .form-item-title input{
+    width: 100% !important;
+}
+
+#quiz-report-form select{
+    color: #000;
+}
+#quiz-report-form .quiz-report{
+    position: relative;
+}
+#quiz-report-form .quiz-report .dt{
+    padding: 5px 20px;
+}
+#quiz-report-form .quiz-report-question{
+    width: 100%;
+    margin: 0;
+    line-height: 40px;
+}
+#quiz-report-form .quiz-report-q-action{
+    position: absolute;
+    right: 150px;
+}
+#quiz-report-form .quiz-report-score-container.q-correct,
+#quiz-report-form .quiz-report-score-container.q-wrong{
+    position: absolute;
+    right: 20px;
+}
+#quiz-report-form input,
+#quiz-report-form select{
+    margin-bottom: 5px;
+}
+#quiz-report-form .quiz-report .dt .cke-wrapper{
+    float: left;
+}
+#quiz-report-form .quiz_summary_qcell{
+    vertical-align: middle;
+}
+#quiz-report-form .quiz-report tbody tr td{
+    background: inherit;
+}
+.node-type-quiz .field-name-body,
+.node-type-quiz .quiz-answer-confirm{
+    padding: 20px;  
+}
+#quiz-questions-form #question-list th:nth-child(5),
+#quiz-questions-form #question-list th:nth-child(6),
+#quiz-questions-form #question-list td:nth-child(5),
+#quiz-questions-form #question-list td:nth-child(6){
+    display: none;
+}
+
+.node-quiz-directions .question_type_name,
+.node-quiz-directions .statistics_counter,
+.node-type-quiz .has-group-progress .statistics_counter{
+    display: none
+}
+
+.node-processing_request-form #edit-field-sid{
+    display: none;
+}
+.node-processing_request-form #edit-field-client-service-wishes .form-item,
+.node-processing_request-form #edit-field-client-lisence-wishes .form-item{
+    display: flex;
+}
+.node-processing_request-form #edit-field-client-service-wishes label,
+.node-processing_request-form #edit-field-client-lisence-wishes label{
+    margin: 0;
+}
+.node-processing_request-form #edit-field-client-service-wishes input,
+.node-processing_request-form #edit-field-client-lisence-wishes input{
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    border: none;
+    pointer-events: none;
+}
+#main-navigation-item-cogwheel a span.image {
+    background-image: url(../img/cogwheel.png);
+    transform: scale(0.6);
+}
+#main-navigation-item-support a span.image {
+    background-image: url(../img/support.png);
+    transform: scale(0.6);
+}
+#main-navigation-item-cogwheel a,
+#main-navigation-item-support a{
+    border: 1px solid #fff;
+}
+#main-navigation-item-cogwheel:hover a,
+#main-navigation-item-support:hover a{
+    border: 1px solid #6d30db;
+}
+#main-navigation-item-cogwheel a.active,
+#main-navigation-item-support a.active{
+    border: 1px solid #6d30db;
+}
+#main-navigation-item-cogwheel:hover a span.image,
+#main-navigation-item-cogwheel a.active span.image
+{
+    background-image: url(../img/cogwheel-active.png);
+    transform: scale(0.6);
+}
+#main-navigation-item-support:hover a span.image,
+#main-navigation-item-support a.active span.image
+{
+    background-image: url(../img/support-active.png);
+    transform: scale(0.6);
+}
+
+body:not(.user-role-administrator) #edit-field-owner-hr{
+    display: none;
+}
+.page-user-edit.user-role-hr-manager #tabs,
+.page-user-edit.user-role-hr-manager #edit-cancel,
+.user-role-hr-manager #breadcrumb{
+    display: none;
+}
+.node-type-support .title{
+    display: none;
+}
+.node-type-support .comment-form .form-type-item,
+body:not(.user-role-administrator).node-type-support #tabs{
+    display: none;
+}
+
+.field-name-body{
+    font-size: 24px;
+}
+.node-type-support .comment-by-viewer a{
+    font-size: 24px;
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    pointer-events: none;
+}
+.node-type-support .comment-by-viewer .field-name-comment-body{
+    font-size: 24px;
+}
+.student-editing  #user-profile-form > div > *  {
+   display: none;
+}
+.student-editing .field-name-field-send-login-link,
+.student-editing .form-actions{
+    display: block !important;
+}
+
+.view-commerce-cart-form .views-field-edit-quantity,
+.view-commerce-cart-summary .views-field-quantity,
+.entity-commerce-order .views-field-quantity,
+#commerce-order-ui-order-form tr th:nth-child(5),
+#commerce-order-ui-order-form tr td:nth-child(5){
+    display: none;
+}
+
+.user-role-moderator.views-commerce-orders .tabs li:nth-child(2){
+    display:none;
+}
+/*********mobile****************************************************************************************************/
+#site-content-mv .media audio{
+    display: none
+}
+#site-content-mv .cke-wrap-block{
+    margin: 0;
+}
+#site-content-mv .newAudio{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #757575;
+    border-radius: 50%;
+}
+#site-content-mv .newAudio:after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/pause.png);
+    background-size: contain;
+}
+
+#site-content-mv .newAudio.play:after{
+    background: url(../img/play.png);
+    background-size: contain;
+}
+#site-content-mv #second-sidebar{
+    min-height: calc(100vh);
+    /*margin-top: 70px;*/
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+#site-content-mv button.trigger{
+    display: none;
+}
+
+#site-content-mv #quiz-question-answering-form .quiz-question-navigation-wrapper{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    background: #493061;
+}
+#site-content-mv .q-back-button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 0 !important;
+}
+#site-content-mv img{
+    max-width: 90% !important;
+    height: auto !important;
+}
+#site-content-mv .media-element-container{
+    margin: 0;
+    vertical-align: middle;
+}  
+#site-content-mv .media-element-container .newAudio{
+    margin: 0 10px;
+}    
+
+#site-content-mv input[value="Finish"],
+#site-content-mv input[value="Next"]{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 0 !important;
+}
+#site-content-mv input[value="Back"]{
+    font-size: 0;
+    background-image: url(../img/arrow.png) !important;
+    background-position: center !important;
+}
+#site-content-mv input[value="Next"]{
+    font-size: 0;
+    background-image: url(../img/arrow-right.png) !important;
+    background-position: center !important;
+}
+#site-content-mv input[value="Finish"]{
+    background-image: none !important;
+
+}
+
+
+#site-content-mv #quiz_progress{
+    font-size: 20px;
+    text-align: center;
+    color: #483061;
+    background: inherit;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+   
+}
+#site-content-mv #quiz-question-answering-form{
+    font-size: 24px;
+    text-align: center;
+    background: inherit;
+}
+
+#site-content-mv table tr{
+    background: inherit;
+}
+
+#site-content-mv table {
+    width: auto !important;
+    margin: 0 auto;
+    display: table;
+    
+}
+#site-content-mv video {
+    width: 100% !important;
+}
+#site-content-mv #quiz-report-form .quiz-report-score-container.q-correct, #quiz-report-form .quiz-report-score-container.q-wrong, #site-content-mv #quiz-report-form .quiz-report-q-action {
+     position: static; 
+
+}
+.node-type-quiz #site-content-mv .field-name-body {
+   text-align: center;
+}
+.node-type-quiz #site-content-mv .field-name-body, .node-type-quiz #site-content-mv .quiz-answer-confirm {
+    font-size: 20px;
+    padding: 0;
+}
+#site-content-mv .quiz-report {
+    text-align: center;
+    font-size: 24px;
+}
+#site-content-mv #quiz-report-form .quiz-report-question {
+    margin: .25em 1em .25em .5em;
+    float: none;
+}
+
+#site-content-mv #menu-toggle-link{
+    display: none;
+}
+#site-content-mv .header-user-tools a:nth-child(3){
+    display: none;
+}
+#site-content-mv .quiz-question-navigation-wrapper input{
+    width: 33.333%;
+    height: 100%;
+    white-space: normal;
+    background-color: #493061 !important;
+    border: 1px solid #fff;
+    outline: none;
+}
+#site-content-mv .quiz-question-navigation-wrapper input:active{
+    background-color: #ffc84e !important;
+}
+
+#site-content-mv #quiz-question-answering-form .quiz-question-navigation-wrapper input.form-submit {
+  /* border-left: none !important; */
+}
+#site-content-mv #nextlink{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate( -50%);
+    font-size: 18px;
+}
+#site-content-mv #nextlink a{
+    text-decoration: none;
+}
+
+#site-content-mv #messages.active,
+#site-content-mv .result-messages{
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000c4;
+}
+#site-content-mv #messages .messages,
+#site-content-mv .result-messages .result-message{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    padding-bottom: 3em;
+    font-size: 18px;
+    color: #000;
+    background: #fff;
+}
+#site-content-mv .messages-dismiss{
+    width: 100%;
+    bottom: 0;
+    top: auto;
+    left: 50%;
+    transform: translate( -50%);
+    line-height: 36px;
+    border-top: 1px solid #cecece;
+    text-align: center;
+}
+#site-content-mv .result-message #quiz_score_percent{
+    margin-bottom: 20px;
+}
+#site-content-mv .result-message{
+     text-align: center;
+}
+#site-content-mv .result-message .view-results{
+    position: absolute;
+    width: 50%;
+    left: 0;
+    border-top: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    line-height: 20px;
+    bottom: 5px;
+}
+#site-content-mv .result-message .continium{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    border-top: 1px solid #cecece;
+    line-height: 20px;
+    bottom: 5px;
+}
+
+#site-content-mv .cke-wrapper {
+     display: block; 
+}
+ 
+.node-type-class #site-content-mv #second-sidebar #opigno-group-progress {
+    display: block;
+}
+.node-type-class #site-content-mv .content,
+.node-type-class #site-content-mv .action-links.has-group-progress{
+    display: none;
+}
+
+#site-content-mv #quiz-report-form .quiz-report .dt,
+#site-content-mv div.quiz-report div.dt div.quiz-report-score-container{
+    color: #000;
+    background: #fff;
+}
+
+#site-content-mv .quiz-report table tr{
+    background: #dcdcdc;
+}
+
+#site-content-mv div.quiz-report .multichoice-icon-cell {
+     padding-top: 0; 
+}
+#site-content-mv div.quiz-report .multichoice-icon-cell span{
+    vertical-align: middle;
+}
+
+#site-content-mv #quiz-question-answering-form table{
+    margin-left: auto;
+}
+
+#site-content-mv #quiz-report-form .quiz-report .dt {
+    padding: 0;
+}
+
+#site-content-mv #opigno-group-progress .opigno-group-certificate, #site-content-mv #opigno-group-progress .opigno-group-status, #site-content-mv #opigno-group-progress .opigno-group-progress-course  {
+    background-color: #fff;
+}
+#site-content-mv #opigno-group-progress .opigno-group-progress-course{
+    padding: 10px;
+}
+#site-content-mv #opigno-group-progress .opigno-group-progress-course > a{
+    pointer-events: none;
+}
+#site-content-mv #opigno-group-progress .opigno-group-progress-course [class^="opigno-group-progress"]{
+    padding: 0 22px 0;
+}
+#site-content-mv #opigno-group-progress .opigno-group-progress-course [class^="opigno-group-progress"] table, #site-content-mv #opigno-group-progress .opigno-group-progress-course [class^="opigno-group-progress"] .forum-table {
+   margin-bottom: 0;
+   border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
